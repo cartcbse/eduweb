@@ -65,5 +65,5 @@ addEventOnElem(window, "scroll", activeElem);
 const mailto = document.getElementById('mailtoButton');
 mailto.addEventListener('click', function(e) {
   e.preventDefault();
-  window.location.href = 'mailto:principal@creaneschool.com';
+  window.location.href = 'mailto:cartcbse@gmail.com';
 });
