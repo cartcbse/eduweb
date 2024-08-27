@@ -573,6 +573,26 @@ body {
 }
 
 
+.download-btns{
+  display: flex;
+  gap: 1rem;
+}
+.btn-down{
+  background-color: #05a95c;
+  transition: background-color linear .2s !important;
+  -webkit-transition: background-color linear .2s !important;
+  -moz-transition: background-color linear .2s !important;
+  -ms-transition: background-color linear .2s !important;
+  -o-transition: background-color linear .2s !important;
+}
+.btn-down:hover{
+  background-color: #028146;
+}
+@media (max-width:991px) {
+  .download-btns{
+    flex-direction: column;
+  }
+}
 
 
 
